@@ -1,0 +1,27 @@
+{
+  "name": "node-hello-world",
+  "version": "1.0.0",
+  "description": "simple node app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/willardshikami/node-hello-world.git"
+  },
+  "author": "Willard Shikami",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/willardshikami/node-hello-world/issues"
+  },
+  "engines": {
+    "node": "~6.9.2"
+  },
+  "dependencies": {
+    "body-parser": "*",
+    "express": "*",
+    "mongodb": "*",
+    "mongoose": "*"
+  }
+}
